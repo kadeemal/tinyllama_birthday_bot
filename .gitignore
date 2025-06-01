@@ -1,0 +1,13 @@
+__pycache__
+venv
+.env
+bot.db
+.DS_Store
+
+data/raw/*.txt
+tinyllama/lora-final/*
+!tinyllama/lora-final/.gitkeep
+tinyllama/lora-finetuned/*
+!tinyllama/lora-finetuned/.gitkeep
+tinyllama/merged/*
+!tinyllama/merged/.gitkeep

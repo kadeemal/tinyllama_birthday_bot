@@ -1,0 +1,10 @@
+services:
+  bot:
+    build: .
+    container_name: birthday_bot
+    restart: unless-stopped
+    env_file: .env
+    volumes:
+      - ./tinyllama/merged:/app/tinyllama/merged 
+    ports:
+      - "8000:8000"  
